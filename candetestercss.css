@@ -206,46 +206,24 @@ html, body {
     .header-bg {
         height: 33vh;
     }
-    #logo{
-        width: 60%;
-    }
+
     .address{
         font-size: 20px; 
     }
+
     .phonenumber {
         font-size: 12px; 
     }
 
-
-
     .navigationbar ul {
-        gap: 500px; 
-    }
-    
-    .navigationbar{
-        width: 100%;
-    }
-
-
-
-
-    .bottomcontent {
-        max-width: 50%;
-        width: 50%;
-        margin: 0 auto; /* center it */
+        gap: 20px; 
     }
 
     #dessertspread {
-        width: 95% !important;  /* shrink image to 90% of screen width */
+        width: 95% !important;  
         max-width: 95% !important;
-        height: auto;  /* keep aspect ratio */
+        height: auto;  
     }
-
-    #massivecookie {
-        width: 320px;
-    }
-
-    
 }
 
 
