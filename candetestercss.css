@@ -204,18 +204,40 @@ html, body {
 
 @media (max-width: 600px) {
     .header-bg {
-        height: 40vh;
+        height: 33vh;
+    }
+    #logo{
+        width: 60%;
+    }
+    .address{
+        font-size: 20px; 
+    }
+    .phonenumber {
+        font-size: 12px; 
     }
 
+
+
+    .navigationbar ul {
+        gap: 500px; 
+    }
+    
+    .navigationbar{
+        width: 100%;
+    }
+
+
+
+
     .bottomcontent {
-    max-width: 87%;
-    width: 87%;
-    margin: 0 auto; /* center it */
+        max-width: 50%;
+        width: 50%;
+        margin: 0 auto; /* center it */
     }
 
     #dessertspread {
-        width: 87 !important;  /* shrink image to 90% of screen width */
-        max-width: 87% !important;
+        width: 95% !important;  /* shrink image to 90% of screen width */
+        max-width: 95% !important;
         height: auto;  /* keep aspect ratio */
     }
 
@@ -223,9 +245,7 @@ html, body {
         width: 320px;
     }
 
-    .navigationbar ul {
-        gap: 60px; 
-    }
+    
 }
 
 
