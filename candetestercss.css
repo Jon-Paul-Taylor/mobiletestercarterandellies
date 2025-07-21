@@ -195,29 +195,31 @@ html, body {
 }
 
 /*---------------MEDIA----------------*/
-@media (max-width: 600px) {
-    .header-bg {
-        height: 40vh;
-    }
-
-    #dessertspread {
-        width: 90% !important;  /* shrink image to 90% of screen width */
-        max-width: 90% !important;
-        height: auto;  /* keep aspect ratio */
-    }
-
-    #massivecookie {
-        width: 340px;
-    }
-
-    .navigationbar ul {
-        gap: 80px; 
-    }
-}
-
 @font-face {
     font-family: 'Eraser';
     src: url('fonts/EraserRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@media (max-width: 600px) {
+    .header-bg {
+        height: 40vh;
+    }
+
+    #dessertspread {
+        width: 80 !important;  /* shrink image to 90% of screen width */
+        max-width: 80% !important;
+        height: auto;  /* keep aspect ratio */
+    }
+
+    #massivecookie {
+        width: 320px;
+    }
+
+    .navigationbar ul {
+        gap: 60px; 
+    }
+}
+
+
