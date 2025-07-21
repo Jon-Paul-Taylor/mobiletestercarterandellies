@@ -215,9 +215,20 @@ html, body {
         font-size: 12px; 
     }
 
+
+
     .navigationbar ul {
         gap: 20px; 
     }
+
+    .navigation li {
+        font-size: 12px;
+    }
+    .navigationbar {
+        padding: 5px;
+    }
+
+
 
     #dessertspread {
         width: 95% !important;  
