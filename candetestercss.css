@@ -1,21 +1,21 @@
 /*---------------MEDIA----------------*/
 @media (max-width: 600px) {
-    /*HEAD ON PHONE*/
     .header-bg {
         height: 40vh;
     }
 
     #dessertspread {
         width: 90%;  /* shrink image to 90% of screen width */
+        max-width: 90%;
         height: auto;  /* keep aspect ratio */
     }
 
     #massivecookie {
-        width: 350px;
+        width: 340px;
     }
 
     .navigationbar ul {
-        gap: 40px; 
+        gap: 80px; 
     }
 }
 
