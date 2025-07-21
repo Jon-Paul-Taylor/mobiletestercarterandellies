@@ -1,0 +1,218 @@
+/*---------------MEDIA----------------*/
+@media (max-width: 600px) {
+    /*HEAD ON PHONE*/
+    .header-bg {
+        height: 40vh;
+    }
+
+
+
+
+    .navigationbar ul {
+        gap: 20px; 
+    }
+}
+
+@font-face {
+    font-family: 'Eraser';
+    src: url('fonts/EraserRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*---------------GENERAL or OVERALL PAGE----------------*/
+#SEOinfo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    z-index: -1;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+/*---------------HEADER----------------*/
+.header-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-image: url('all_images/woodbackground.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#logo {
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0 auto 1px;
+    width: 50%; /* smaller logo */
+}
+
+.address, .phonenumber {
+    font-size: 18px; /* smaller text */
+    margin: 2px 0;
+}
+
+.address{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+    margin: 1px 0;
+}
+
+.address a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.phonenumber{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+    margin: 1px 0;
+}
+
+.phonenumber a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/*---------------NAVIGATION----------------*/
+.navigation{
+    display: block;
+}
+
+.navigationbar {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid black 2px;
+    font-size: 18px;  
+    background-color: hotpink;;
+}
+.navigationbar ul {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 50px;
+
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+
+    
+    background-color: hotpink;
+}
+
+.navigationbar li {
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+    font-size: 22px;
+}
+
+.navigationbar a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: hotpink;
+}
+
+.navigationbar a:hover {
+    background-color: rgb(255,135,180);
+    padding: 4px;
+    border: solid 2px black;
+}
+
+.navigationbar a.active {
+    background-color: rgb(255,135,180);
+    padding: 4px;
+    border: solid 2px black;
+}
+
+
+
+
+/*---------------BOTTOM----------------*/
+.bottom-bg {
+    display: block;
+    width: 100%;
+
+    background-image: url('all_images/woodbackground.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.crayon-text {
+    font-family: 'Eraser', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.midsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+.midsectioninfo{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.and{
+    color:white;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+#massivecookie{
+    border: solid 5px hotpink;
+    display: block;
+}
+#dessertspread{
+    border: solid 5px hotpink;
+    display: block;
+    margin: 0 auto 50px;
+    max-width: 100%;
+    height: auto;
+}
