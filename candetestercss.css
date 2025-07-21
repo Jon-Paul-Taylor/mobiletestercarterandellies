@@ -207,6 +207,18 @@ html, body {
         height: 40vh;
     }
 
+    .navigationbar a {
+        font-size: 16px;
+    }
+
+    .midsectioninfo {
+        font-size: 20px;
+    }
+
+    .and {
+        font-size: 16px;
+    }
+
     #dessertspread {
         width: 80 !important;  /* shrink image to 90% of screen width */
         max-width: 80% !important;
