@@ -26,6 +26,8 @@ html, body {
     align-items: center;
 
     width: 100%;
+    margin: 0;
+    padding: 0px;
 
     background-image: url('all_images/woodbackground.jpg');
     background-size: cover; 
@@ -218,16 +220,21 @@ html, body {
 
 
     .navigationbar ul {
-        gap: 30px; 
+        gap: 40px; 
     }
 
     .navigation li {
-        font-size: 10px;
+        font-size: 16px;
     }
     .navigationbar {
         padding: 4px;
     }
 
+
+
+    .crayon-text {
+        font-size: 12px;
+    }
     .midsectioninfo {
         font-size: 12px; /* smaller main text */
     }
@@ -235,9 +242,9 @@ html, body {
     .and {
         font-size: 8px; /* smaller & symbol */
     }
-    
+
     #massivecookie{
-        width: 340px;
+        width: 50px !important;
     }
 
     #dessertspread {
