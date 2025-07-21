@@ -218,14 +218,14 @@ html, body {
 
 
     .navigationbar ul {
-        gap: 10px; 
+        gap: 30px; 
     }
 
     .navigation li {
-        font-size: 4px;
+        font-size: 10px;
     }
     .navigationbar {
-        padding: 2px;
+        padding: 4px;
     }
 
     .midsectioninfo {
@@ -234,6 +234,10 @@ html, body {
 
     .and {
         font-size: 8px; /* smaller & symbol */
+    }
+    
+    #massivecookie{
+        width: 340px;
     }
 
     #dessertspread {
