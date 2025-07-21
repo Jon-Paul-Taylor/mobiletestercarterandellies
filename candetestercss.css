@@ -1,33 +1,3 @@
-/*---------------MEDIA----------------*/
-@media (max-width: 600px) {
-    .header-bg {
-        height: 40vh;
-    }
-
-    #dessertspread {
-        width: 90%;  /* shrink image to 90% of screen width */
-        max-width: 90%;
-        height: auto;  /* keep aspect ratio */
-    }
-
-    #massivecookie {
-        width: 340px;
-    }
-
-    .navigationbar ul {
-        gap: 80px; 
-    }
-}
-
-@font-face {
-    font-family: 'Eraser';
-    src: url('fonts/EraserRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
 /*---------------GENERAL or OVERALL PAGE----------------*/
 #SEOinfo {
     position: absolute;
@@ -222,4 +192,32 @@ html, body {
     margin: 0 auto 50px;
     max-width: 100%;
     height: auto;
+}
+
+/*---------------MEDIA----------------*/
+@media (max-width: 600px) {
+    .header-bg {
+        height: 40vh;
+    }
+
+    #dessertspread {
+        width: 90% !important;  /* shrink image to 90% of screen width */
+        max-width: 90% !important;
+        height: auto;  /* keep aspect ratio */
+    }
+
+    #massivecookie {
+        width: 340px;
+    }
+
+    .navigationbar ul {
+        gap: 80px; 
+    }
+}
+
+@font-face {
+    font-family: 'Eraser';
+    src: url('fonts/EraserRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
