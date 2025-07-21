@@ -218,17 +218,23 @@ html, body {
 
 
     .navigationbar ul {
-        gap: 20px; 
+        gap: 10px; 
     }
 
     .navigation li {
-        font-size: 12px;
+        font-size: 4px;
     }
     .navigationbar {
-        padding: 5px;
+        padding: 2px;
     }
 
+    .midsectioninfo {
+        font-size: 12px; /* smaller main text */
+    }
 
+    .and {
+        font-size: 8px; /* smaller & symbol */
+    }
 
     #dessertspread {
         width: 95% !important;  
