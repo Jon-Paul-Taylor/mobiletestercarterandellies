@@ -224,27 +224,33 @@ html, body {
     }
 
     .navigation li {
-        font-size: 16px;
+        font-size: 14px;
+        padding: 2px;
     }
     .navigationbar {
         padding: 4px;
+    }
+    .navigationbar a.active {
+        background-color: rgb(255,135,180);
+        padding: 4px;
+        border: solid 1px black;
     }
 
 
 
     .crayon-text {
-        font-size: 12px;
+        font-size: 24px;
     }
     .midsectioninfo {
         font-size: 12px; /* smaller main text */
     }
 
     .and {
-        font-size: 8px; /* smaller & symbol */
+        font-size: 12px; /* smaller & symbol */
     }
 
     #massivecookie{
-        width: 50px !important;
+        width: 100px !important;
     }
 
     #dessertspread {
