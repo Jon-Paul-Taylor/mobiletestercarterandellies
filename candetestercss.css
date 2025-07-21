@@ -5,11 +5,17 @@
         height: 40vh;
     }
 
+    #dessertspread {
+        width: 90%;  /* shrink image to 90% of screen width */
+        height: auto;  /* keep aspect ratio */
+    }
 
-
+    #massivecookie {
+        width: 350px;
+    }
 
     .navigationbar ul {
-        gap: 20px; 
+        gap: 40px; 
     }
 }
 
@@ -143,6 +149,7 @@ html, body {
 }
 
 .navigationbar a {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     text-decoration: none;
     text-align: center;
     color: black;
