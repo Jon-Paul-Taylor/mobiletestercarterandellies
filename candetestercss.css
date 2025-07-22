@@ -250,13 +250,19 @@ html, body {
     }
 
     #massivecookie{
-        width: 100px !important;
+        width: 90px !important;
+        border: solid hotpink 2px !important;
+    }
+
+    .midsection{
+        width: 90% !important;
     }
 
     #dessertspread {
-        width: 95% !important;  
+        width: 92% !important;  
         max-width: 95% !important;
-        height: auto;  
+        height: auto;
+        border: solid hotpink 2px;  
     }
 }
 
