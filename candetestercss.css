@@ -205,6 +205,10 @@ html, body {
 }
 
 @media (max-width: 600px) {
+    #SEOinfo{
+        color: white;
+    }
+
     .header-bg {
         height: 33vh;
     }
@@ -236,8 +240,6 @@ html, body {
         border: solid 1px black;
     }
 
-
-
     .crayon-text {
         font-size: 24px;
     }
@@ -250,12 +252,13 @@ html, body {
     }
 
     #massivecookie{
-        width: 90px !important;
+        width: 92px !important;
         border: solid hotpink 2px !important;
     }
 
     .midsection{
         width: 90% !important;
+        justify-content: center;
     }
 
     #dessertspread {
