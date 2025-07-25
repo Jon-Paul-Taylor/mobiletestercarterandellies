@@ -5,6 +5,9 @@ html, body {
     overflow-x: hidden;
 }
 
+
+
+
 /*---------------HEADER----------------*/
 .header-bg {
     display: flex;
@@ -95,7 +98,6 @@ html, body {
     padding: 0px;
     margin: 0;
 
-    
     background-color: hotpink;
 }
 
@@ -125,6 +127,7 @@ html, body {
     padding: 4px;
     border: solid 2px black;
 }
+
 /*---------------BOTTOM----------------*/
  .bottom-bg {
     display: block;
@@ -158,6 +161,19 @@ html, body {
 }
 
 @media (max-width: 600px) {
+    .header-bg {
+        height: 33vh;
+    }
+
+    .address{
+        font-size: 20px; 
+    }
+
+    .phonenumber {
+        font-size: 12px; 
+    }
+
+    /*----------NAVIGATION------------*/
     .navigationbar ul {
         gap: 40px; 
     }

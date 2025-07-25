@@ -109,7 +109,6 @@ html, body {
     padding: 0px;
     margin: 0;
 
-    
     background-color: hotpink;
 }
 
@@ -210,6 +209,7 @@ html, body {
         color: white;
     }
 
+    /*----------HEADER------------*/
     .header-bg {
         height: 33vh;
     }
@@ -223,6 +223,8 @@ html, body {
     }
 
 
+    
+    /*----------NAVIGATION------------*/
 
     .navigationbar ul {
         gap: 40px; 
@@ -245,7 +247,8 @@ html, body {
         padding: 4px;
         border: solid 1px black;
     }
-
+    
+    /*----------BOTTOM------------*/
     .crayon-text {
         font-size: 24px;
     }
