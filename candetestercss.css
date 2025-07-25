@@ -81,8 +81,6 @@ html, body {
 }
 
 
-
-
 /*---------------NAVIGATION----------------*/
 .navigation{
     display: block;
@@ -124,6 +122,8 @@ html, body {
     text-decoration: none;
     text-align: center;
     color: black;
+    padding: 4px; /* this is a test and you can later delete */
+    border: 2px solid transparent; /* this is a test and you can later delete */
     background-color: hotpink;
 }
 
@@ -138,8 +138,6 @@ html, body {
     padding: 4px;
     border: solid 2px black;
 }
-
-
 
 
 /*---------------BOTTOM----------------*/
@@ -247,7 +245,7 @@ html, body {
         padding: 4px;
         border: solid 1px black;
     }
-    
+
     /*----------BOTTOM------------*/
     .crayon-text {
         font-size: 24px;
