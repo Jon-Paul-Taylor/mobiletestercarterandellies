@@ -1,0 +1,186 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+    overflow-x: hidden;
+}
+/*---------------HEADER----------------*/
+.header-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+
+    background-image: url('all_images/woodbackground.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#logo {
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0 auto 1px;
+    width: 50%; 
+}
+
+.address, .phonenumber {
+    font-size: 18px; 
+    margin: 2px 0;
+}
+
+.address{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+    margin: 1px 0;
+}
+
+.address a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.phonenumber{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+    margin: 1px 0;
+}
+
+.phonenumber a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/*---------------NAVIGATION----------------*/
+.navigation{
+    display: block;
+    flex-shrink: 0; /* don't shrink */
+}
+
+.navigationbar {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid black 2px;
+    font-size: 18px;  
+    background-color: hotpink;;
+}
+.navigationbar ul {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 50px;
+
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+
+    
+    background-color: hotpink;
+}
+
+.navigationbar li {
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+    font-size: 22px;
+}
+
+.navigationbar a {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: hotpink;
+}
+
+.navigationbar a:hover {
+    background-color: rgb(255,135,180);
+    padding: 4px;
+    border: solid 2px black;
+}
+
+.navigationbar a.active {
+    background-color: rgb(255,135,180);
+    padding: 4px;
+    border: solid 2px black;
+}
+
+
+
+/*---------------BOTTOM----------------*/
+.bottom-bg {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+
+    background-image: url('all_images/woodbackground.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat-y;
+    
+    justify-content: center;  /* center vertically */
+    align-items: center;      /* center horizontally */
+    padding: 20px 0; /* optional spacing */
+}
+
+.formargin {
+  flex-grow: 1;
+}
+
+#aboutinfo{
+    border: solid 5px black;
+    padding: 15px;
+    background-color: lightpink;
+    max-width: 700px;
+    margin: auto; 
+}
+
+.infoabout {
+    border: solid 3px hotpink;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+
+.sociallinks {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+
+#aboutinfo, .sociallinks p {
+  margin-bottom: 0;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: white;
+}
+

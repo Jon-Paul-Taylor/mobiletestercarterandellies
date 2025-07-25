@@ -1,0 +1,162 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*---------------HEADER----------------*/
+.header-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+
+    background-image: url('all_images/woodbackground.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#logo {
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0 auto 1px;
+    width: 50%; /* smaller logo */
+}
+
+.address, .phonenumber {
+    font-size: 18px; /* smaller text */
+    margin: 2px 0;
+}
+
+.address{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+    margin: 1px 0;
+}
+
+.address a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.phonenumber{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+    margin: 1px 0;
+}
+
+.phonenumber a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/*---------------NAVIGATION----------------*/
+.navigation{
+    display: block;
+}
+
+.navigationbar {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid black 2px;
+    font-size: 18px;  
+    background-color: hotpink;;
+}
+.navigationbar ul {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 50px;
+
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+
+    
+    background-color: hotpink;
+}
+
+.navigationbar li {
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+    font-size: 22px;
+}
+
+.navigationbar a {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: hotpink;
+}
+
+.navigationbar a:hover {
+    background-color: rgb(255,135,180);
+    padding: 4px;
+    border: solid 2px black;
+}
+
+.navigationbar a.active {
+    background-color: rgb(255,135,180);
+    padding: 4px;
+    border: solid 2px black;
+}
+
+
+
+
+/*---------------BOTTOM----------------*/
+ .bottom-bg {
+    display: block;
+    width: 100%;
+    background-image: url('all_images/woodbackground.jpg');
+    background-repeat: repeat-y;       /* repeat only vertically */
+    background-size: 100% auto;        /* scale width to 100%, height auto */
+    background-position: top center;   /* position at top center */
+    background-attachment: scroll;     /* scroll normally */
+ }
+
+.menus {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 40px;
+    padding: 50px;
+    justify-items: center;
+}
+
+.menus img {
+    width: 100%; 
+    height: auto;
+}
+
+#border {
+    border: solid 4px hotpink
+}
+
+.menus img.wide {
+    grid-column: span 2;
+}
