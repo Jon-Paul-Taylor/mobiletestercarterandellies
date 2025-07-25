@@ -235,6 +235,11 @@ html, body {
     .navigationbar {
         padding: 4px;
     }
+    .navigationbar a:hover {
+        background-color: rgb(255,135,180);
+        padding: 4px;
+        border: solid 1px black;
+    }
     .navigationbar a.active {
         background-color: rgb(255,135,180);
         padding: 4px;
