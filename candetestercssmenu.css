@@ -125,10 +125,6 @@ html, body {
     padding: 4px;
     border: solid 2px black;
 }
-
-
-
-
 /*---------------BOTTOM----------------*/
  .bottom-bg {
     display: block;
@@ -159,4 +155,28 @@ html, body {
 
 .menus img.wide {
     grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+    .navigationbar ul {
+        gap: 40px; 
+    }
+
+    .navigation li {
+        font-size: 11px;
+        padding: 2px;
+    }
+    .navigationbar {
+        padding: 4px;
+    }
+    .navigationbar a:hover {
+        background-color: rgb(255,135,180);
+        padding: 4px;
+        border: solid 1px black;
+    }
+    .navigationbar a.active {
+        background-color: rgb(255,135,180);
+        padding: 4px;
+        border: solid 1px black;
+    }
 }
