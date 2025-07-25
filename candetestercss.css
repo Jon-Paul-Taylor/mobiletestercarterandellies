@@ -188,6 +188,7 @@ html, body {
     border: solid 5px hotpink;
     display: block;
 }
+
 #dessertspread{
     border: solid 5px hotpink;
     display: block;
@@ -243,6 +244,17 @@ html, body {
     .crayon-text {
         font-size: 24px;
     }
+    .midsection{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto; /* centers the 90% width */
+        gap: 10px;
+        box-sizing: border-box;
+    }
+
     .midsectioninfo {
         font-size: 12px; /* smaller main text */
     }
@@ -254,11 +266,6 @@ html, body {
     #massivecookie{
         width: 92px !important;
         border: solid hotpink 2px !important;
-    }
-
-    .midsection{
-        width: 90% !important;
-        justify-content: center;
     }
 
     #dessertspread {
