@@ -210,12 +210,20 @@ html, body {
 
 
 
-    
+
     /*----------BOTTOM------------*/
     .menus {
-    grid-template-columns: 1fr;  /* one column */
-    gap: 15px;                   /* smaller gaps */
-    padding: 20px;               /* less padding */
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 20px;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .menus img {
+        width: 100% !important;
+        height: auto;
+        grid-column: auto !important;
     }
     #border {
         border: solid hotpink 2px;
