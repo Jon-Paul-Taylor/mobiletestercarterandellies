@@ -1,3 +1,14 @@
+/*---------------GENERAL or OVERALL PAGE----------------*/
+#SEOinfo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    z-index: -1;
+}
+
 html, body {
     margin: 0; 
     padding: 0; 
