@@ -206,4 +206,19 @@ html, body {
         padding: 4px;
         border: solid 1px black;
     }
+
+
+
+
+    
+    /*----------BOTTOM------------*/
+    .menus {
+    grid-template-columns: 1fr;  /* one column */
+    gap: 15px;                   /* smaller gaps */
+    padding: 20px;               /* less padding */
+    }
+    #border {
+        border: solid hotpink 2px;
+    }
+
 }
