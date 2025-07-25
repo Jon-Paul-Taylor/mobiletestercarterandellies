@@ -213,16 +213,19 @@ html, body {
 
     /*----------BOTTOM------------*/
     .menus {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         gap: 15px;
         padding: 20px;
-        justify-items: center;
+        justify-items: center !important;
         margin: 0 auto;
     }
 
     .menus img {
         width: 100% !important;
         height: auto;
+        grid-column: auto !important;
+    }
+    .menus img.wide {
         grid-column: auto !important;
     }
     #border {
