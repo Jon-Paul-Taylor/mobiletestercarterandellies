@@ -150,7 +150,7 @@ html, body {
 
     background-image: url('all_images/woodbackground.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
